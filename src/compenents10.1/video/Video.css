@@ -1,0 +1,36 @@
+.video {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video .box-jsx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(100deg, #fff, rgb(118, 183, 185), rgb(21, 230, 230));
+    width: 80%;
+    height: 100%;
+    color: #fff;
+}
+@media (max-width: 620px) {
+    .video .box-jsx{
+        width: 100%;
+    }
+}
+.video .box-jsx .video-he1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    width: 80%;
+    height: 10%;
+    /* border: 1px solid rebeccapurple; */
+    background: #686060;
+    border-radius: 9px;
+}
+
+.video .box-jsx .video-he1 .ratio {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,21 @@
+.folder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.folder .folder-img-meeting{
+    white-space: nowrap;
+    transition: transform 0.5s; 
+    width: 100%;
+    height: 100%;
+
+}
+.folder .folder-img-meeting img{
+    width: 100%;
+    height: 100%;
+    padding: 20px 30px; 
+}
+
